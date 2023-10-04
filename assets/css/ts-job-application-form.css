@@ -1,0 +1,86 @@
+body {
+	background-color: black;
+}
+
+.ts-job-application-form-wrap {
+	background-color: #F6F8FA;
+	margin-bottom: 30px;
+    border: 1px solid #e3e3e3;
+	border-radius: 10px;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.ts-job-application-form-row {
+	display: flex;
+	gap: 10px;
+	margin: 20px 4px;
+}
+
+.ts-job-application-form-input-row {
+	flex: 1 0 45%;
+}
+
+.ts-job-application-form-label {
+    color: #2C3345;
+	font-weight: 500;
+	display: block;
+    font-size: 16px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+	margin-left: 5px;
+}
+
+.ts-job-application-form-label .form-required {
+	color: #f23a3c;
+	margin-left: 4px;
+}
+
+.ts-job-application-form-frontend-field {
+    outline: 0;
+}
+
+.ts-job-application-form-input-row #user_file {
+	margin-bottom: 10px;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+	border-radius: 4px;
+	border: 1px solid #c0c4d4;
+    transition: all .35s;
+    padding: 10px 15px;
+    background: #fff;
+    color: #676d8a;
+    height: 45px;
+	width: 100%;
+    min-height: 36px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+	font: inherit;
+}
+
+.ts-job-application-form-error {
+    background: rgba(255,79,85,.1);
+	display: block;
+    margin: 0 0 10px;
+    padding: 10px 15px;
+    border-top: 3px solid #ff4f55;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+    line-height: 1.25;
+    text-transform: none;
+}
+
+.ts-job-application-form-success {
+	background: rgba(175,223,135,.1);
+	display: block;
+    margin: 0 0 10px;
+    padding: 10px 15px;
+    border-top: 3px solid #ACDF87;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+    line-height: 1.25;
+    text-transform: none;
+}
