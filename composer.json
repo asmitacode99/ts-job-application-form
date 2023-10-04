@@ -1,0 +1,24 @@
+{
+	"name": "ts/job-application-form",
+	"description": "Job Application Form Plugin For WordPress.",
+	"homepage": "http://prajjwalpoudel.com.np/",
+	"type": "wordpress-plugin",
+	"license": "GPL-3.0-or-later",
+    "autoload": {
+		"psr-4": {
+		  "JobApplicationForm\\": "includes/"
+		}
+	  },
+	"require": {
+    "composer/installers": "~2.0.0"
+	},
+	"require-dev": {
+    "wp-cli/i18n-command": "2.2.9"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"composer/installers": true
+		}
+	}
+}
